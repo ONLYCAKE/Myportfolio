@@ -246,8 +246,14 @@ button:focus {
   position: fixed !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
-  width: 100%;
-  height: 100%;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 0 !important;
+  pointer-events: none !important;
+}
+
+#tsparticles canvas {
+  pointer-events: none !important;
 }
 
 .home-header {
@@ -446,6 +452,7 @@ button:focus {
 /* --------- */
 .project-section {
   position: relative !important;
+  z-index: 1 !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
@@ -752,3 +759,108 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+/* ========================================= */
+/* Categorized Skills Section                */
+/* ========================================= */
+.skill-category-card {
+  background: rgba(18, 11, 31, 0.72) !important;
+  border: 1.5px solid rgba(200, 137, 230, 0.3) !important;
+  border-radius: 14px !important;
+  padding: 24px !important;
+  margin-bottom: 25px !important;
+  box-shadow: 0 4px 15px rgba(89, 4, 168, 0.15) !important;
+  backdrop-filter: blur(10px) !important;
+  transition: all 0.3s ease !important;
+  text-align: left !important;
+  width: 100% !important;
+  height: auto !important;
+  align-self: flex-start !important;
+}
+
+.skill-grid-row {
+  align-items: flex-start !important;
+}
+
+.skill-category-card:hover {
+  border-color: rgba(197, 115, 230, 0.8) !important;
+  box-shadow: 0 0 20px rgba(197, 115, 230, 0.35) !important;
+  transform: translateY(-4px) !important;
+}
+
+.skill-category-title {
+  color: #c770f0 !important;
+  font-size: 1.25em !important;
+  font-weight: 700 !important;
+  margin-bottom: 18px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  letter-spacing: 0.5px !important;
+}
+
+.skill-badge-list {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 10px !important;
+}
+
+.skill-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(200, 137, 230, 0.35) !important;
+  color: #f1f1f1 !important;
+  padding: 8px 14px !important;
+  border-radius: 8px !important;
+  font-size: 0.95em !important;
+  font-weight: 500 !important;
+  transition: all 0.25s ease !important;
+  cursor: default !important;
+}
+
+.skill-badge:hover {
+  background: rgba(199, 112, 240, 0.22) !important;
+  border-color: rgba(199, 112, 240, 0.9) !important;
+  color: #fff !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px rgba(199, 112, 240, 0.35) !important;
+}
+
+.skill-badge svg {
+  font-size: 1.25em !important;
+  color: #c770f0 !important;
+}
+
+/* ========================================= */
+/* Project Enhancements                      */
+/* ========================================= */
+.project-stack-tags {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 6px !important;
+}
+
+.project-stack-badge {
+  background: rgba(199, 112, 240, 0.15) !important;
+  border: 1px solid rgba(199, 112, 240, 0.45) !important;
+  color: #d89ff3 !important;
+  font-size: 0.78rem !important;
+  font-weight: 600 !important;
+  padding: 3px 8px !important;
+  border-radius: 5px !important;
+}
+
+.project-private-notice {
+  font-size: 0.83rem !important;
+  color: #c9c3d4 !important;
+  background: rgba(255, 255, 255, 0.04) !important;
+  border-left: 3px solid #c770f0 !important;
+  padding: 8px 12px !important;
+  border-radius: 4px !important;
+  margin-top: 10px !important;
+  font-style: italic !important;
+  text-align: left !important;
+}
+

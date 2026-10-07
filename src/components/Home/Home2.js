@@ -19,35 +19,29 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-             👋 Hi, I’m Divy Pattani, an AI/ML Engineer Intern based in Gujarat, India.
-I’m currently pursuing B.Tech in Information Technology at LJ Institute of Engineering and Technology, while gaining hands-on industry experience in AI, Generative AI, and full-stack development.
+             👋 Hi, I'm <b className="purple">Divy Pattani</b>, a Full-Stack Developer and final-year B.E. Information Technology student at <b className="purple">LJ University</b>, based in Gujarat, India.
               <br />
               <br />
-              I work with modern web and backend technologies such as{" "}
+              I work across the full stack —{" "}
               <i>
-                <b className="purple"> HTML, CSS, JavaScript, TypeScript, Python, React, Node.js, and PostgreSQL </b>
-              </i>
-              <br />
-              <br />
-              My primary interests lie in AI/ML and Generative AI, where I explore{" "}
-              <i>
-                <b className="purple">LLMs, prompt engineering, chatbot workflows, and AI-assisted automation</b>
-              </i>
-              , crbridging the gap between intelligent systems and real-world applications.{" "}
-              <i>
-                <b className="purple">Web Technologies & Products</b>
+                <b className="purple">React, Next.js, Node.js, NestJS, and AdonisJS</b>
               </i>{" "}
-              and exploring the exciting intersection of{" "}
+              on the frontend/backend, with{" "}
               <i>
-                <b className="purple">AI and Web Development.</b>
-              </i>
-              <br />
-              <br />
-              ⚡ I enjoy building{" "}
-              <i>
-                <b className="purple">full-stack and AI-enabled projects using MERN stack, Prisma, Flask/Django</b>
+                <b className="purple">PostgreSQL, MongoDB, and Redis</b>
               </i>{" "}
-              and modern tooling — from data-driven dashboards to production-ready AI solutions.
+              for data and caching. Over the past year I've independently designed and built production systems end-to-end, including a{" "}
+              <i>
+                <b className="purple">multi-tenant invoicing & accounting platform, restaurant POS & ERP system, and a crypto-trading bot SaaS platform</b>
+              </i>
+              , along with contributing to large-scale enterprise ERP software.
+              <br />
+              <br />
+              ⚡ I enjoy solving real engineering problems —{" "}
+              <i>
+                <b className="purple">concurrency-safe transactions, REST API design, real-time systems with WebSockets, and clean database architecture</b>
+              </i>
+              . I also leverage AI-assisted development tools (<i><b className="purple">Claude, GitHub Copilot, Cursor</b></i>) to work faster while keeping full ownership and review of everything I ship.
               <br />
               <br />
               🏆 Highlights:
